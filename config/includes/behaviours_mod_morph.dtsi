@@ -72,7 +72,7 @@
             #ifdef HAS_MOUSE_TP
                 bindings = <&lt MOUSE_TP BSPC>, <&kp DEL>;
             #else
-                bindings = <&lt NAV BSPC>, <&kp DEL>;
+                bindings = <&lt SYM BSPC>, <&kp DEL>;
             #endif
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
