@@ -22,7 +22,7 @@
 #define MOUSE_TP_SET 14
 
 #ifdef HAS_UROB
-  #define HAS_TRI_STATE
+//  #define HAS_TRI_STATE
   #define HAS_NUM_WORD
 #endif
 
