@@ -78,9 +78,9 @@ manifest:
 
     # Tri-state behavior to make cmd+tab switching key
     # Used to be a key feature in urob's fork
-    - name: zmk-tri-state
-      remote: dhruvinsh
-      revision: main
+    # - name: zmk-tri-state
+    #  remote: dhruvinsh
+    #  revision: main
 
   self:
     path: config
