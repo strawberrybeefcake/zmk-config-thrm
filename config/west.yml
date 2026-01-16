@@ -12,6 +12,8 @@ manifest:
       url-base: https://github.com/badjeff/
     - name: dhruvinsh
       url-base: https://github.com/dhruvinsh
+    - name: paralub
+      url-base: https://github.com/paralub
 
   projects:
 
