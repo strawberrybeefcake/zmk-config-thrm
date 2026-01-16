@@ -12,8 +12,8 @@ manifest:
       url-base: https://github.com/badjeff/
     - name: dhruvinsh
       url-base: https://github.com/dhruvinsh
-    - name: paralub
-      url-base: https://github.com/paralub
+- name: arichardson
+      url-base: https://github.com/arichardson
 
   projects:
 
@@ -78,10 +78,10 @@ manifest:
       remote: urob
       revision: v2 # this will eventually become main
 
-# Tri-state behavior (Switched to paralub fork for build fix)
+# Tri-state behavior
+    # Using arichardson's branch which fixes the "source" build error
     - name: zmk-tri-state
-      remote: paralub
-      revision: master
-
+      remote: arichardson
+      revision: update-for-zmk-behavior-api-changes
   self:
     path: config
