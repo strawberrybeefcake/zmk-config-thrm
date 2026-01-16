@@ -76,11 +76,11 @@ manifest:
       remote: urob
       revision: v2 # this will eventually become main
 
-    # Tri-state behavior to make cmd+tab switching key
-    # Used to be a key feature in urob's fork
+# Tri-state behavior to make cmd+tab switching key
+    # Switched to badjeff fork to fix build error (removed .source)
      - name: zmk-tri-state
-       remote: dhruvinsh
-       revision: main
+       remote: badjeff
+       revision: master
 
   self:
     path: config
