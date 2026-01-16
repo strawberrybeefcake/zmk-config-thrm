@@ -76,10 +76,9 @@ manifest:
       remote: urob
       revision: v2 # this will eventually become main
 
-# Tri-state behavior to make cmd+tab switching key
-    # Used to be a key feature in urob's fork
+# Tri-state behavior (Switched to paralub fork for build fix)
     - name: zmk-tri-state
-      remote: badjeff
+      remote: paralub
       revision: master
 
   self:
