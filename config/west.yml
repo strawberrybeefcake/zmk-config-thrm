@@ -62,9 +62,9 @@ manifest:
     #
 
     # Module for PS/2 mouse & TP driver
-    - name: kb_zmk_ps2_mouse_trackpoint_driver
-      remote: infused-kim
-      revision: dev/2024-04-acceleration
+    # - name: kb_zmk_ps2_mouse_trackpoint_driver
+    #  remote: infused-kim
+    #  revision: dev/2024-04-acceleration
 
     # zmk module for nice_peri_view
     - name: tmp-npv
