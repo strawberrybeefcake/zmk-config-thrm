@@ -10,8 +10,8 @@ manifest:
       url-base: https://github.com/urob
     - name: badjeff
       url-base: https://github.com/badjeff/
-    #- name: dhruvinsh
-    #  url-base: https://github.com/dhruvinsh
+    - name: dhruvinsh
+      url-base: https://github.com/dhruvinsh
 
   projects:
 
@@ -22,10 +22,10 @@ manifest:
 
     # Standard, stable zmk repo without mouse PR.
     # Not compatible with the PS/2 mouse & TP driver module.
-     - name: zmk
-       remote: zmkfirmware
-       revision: main
-       import: app/west.yml
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
 
     # infused-kim's zmk fork with mouse PR, which might be a bit outdated, but
     # is known to be compatible with the PS/2 mouse & TP driver module.
@@ -78,9 +78,9 @@ manifest:
 
     # Tri-state behavior to make cmd+tab switching key
     # Used to be a key feature in urob's fork
-     - name: zmk-tri-state
-       remote: dhruvinsh
-       revision: main
+    - name: zmk-tri-state
+      remote: dhruvinsh
+      revision: main
 
   self:
     path: config
