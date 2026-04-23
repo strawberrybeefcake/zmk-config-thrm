@@ -44,10 +44,10 @@ manifest:
 
     # urob's zmk fork with mouse PR & many extra features, but may be
     # incompatible with the PS/2 mouse & TP driver module.
-    # - name: zmk
-    #   remote: urob
-    #   revision: main
-    #   import: app/west.yml
+    - name: zmk
+      remote: urob
+      revision: main
+      import: app/west.yml
 
     # infused-kim's zmk fork with mouse PR AND urob's improvements, which
     # might be out-dated, but is known to be compatible with PS/2 mouse & TP
